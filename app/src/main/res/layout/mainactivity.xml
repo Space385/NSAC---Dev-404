@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Splash">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        >
+    <ImageView
+        android:id="@+id/splashscreen"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:background="@android:color/background_dark"
+        android:src="@drawable/logo_space_encyclo"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/splash_wel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="WELCOME"
+        android:textSize="45dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:background="#000000"
+        android:textColor="#52b28f"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textStyle="italic"
+        android:layout_weight="8"
+        android:gravity="center_horizontal" />
+       <!-- app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" -->
+
+
+        />
+
+    </RadioGroup>
+</RelativeLayout>

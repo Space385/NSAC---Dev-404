@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/menu_home"
+    android:icon="@drawable/ic_baseline_home_24"
+    android:title="home"/>
+    <!--<item
+       android:id="@+id/menu_settings"
+       android:icon="@drawable/ic_baseline_settings_24"
+       android:title="settings"/>
+   item
+       android:id="@+id/menu_act_america"
+       android:icon="@drawable/ic_baseline_bookmark_border_24_act_america"
+       android:title="ACT-America"/>
+   <item
+       android:id="@+id/menu_air_moss"
+       android:icon="@drawable/ic_baseline_bookmark_border_24_air_moss"
+       android:title="Air-Moss"/>  -->
+    <item
+        android:id="@+id/menu_aquaris"
+        android:icon="@drawable/ic_baseline_bookmark_border_24_aquaris"
+        android:title="Aquaris"/>
+    <item
+    android:id="@+id/menu_ats"
+    android:icon="@drawable/ic_baseline_bookmark_border_24_ats"
+    android:title="ATS"/>
+    <item
+        android:id="@+id/menu_atom"
+        android:icon="@drawable/ic_baseline_bookmark_border_24_atom"
+        android:title="ATOM"/>
+    <item
+        android:id="@+id/menu_adios"
+        android:icon="@drawable/ic_baseline_bookmark_border_24_adios"
+        android:title="ADIOS"/>
+    <item
+        android:id="@+id/menu_aqua"
+        android:icon="@drawable/ic_baseline_bookmark_border_24_aqua"
+        android:title="AQUA"/>
+    <item
+        android:id="@+id/menu_atlas"
+        android:icon="@drawable/ic_baseline_bookmark_border_24_atlas"
+        android:title="ATLAS"/>
+
+</menu>
